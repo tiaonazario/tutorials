@@ -19,3 +19,37 @@ O funcionamento de uma virtualenv é bem simples. Basicamente, uma cópia dos di
 ```powershell
 pip install virtualenv
 ```
+
+## Nova virtualenv
+
+````powershell
+virtualenv nome_da_virtualenv
+````
+
+## Ativação
+
+### Linux ou macOS
+
+```powershell
+source nome_da_virtualenv/bin/activate
+```
+
+### Windows
+
+```powershell
+nome_da_virtualenv/Scripts/Activate
+```
+
+## Desativar
+
+```powershell
+deactivate
+```
+
+## Instalando pacotes
+
+É feito com a virtualenv ativada e usando o pip.
+
+````powershell
+pip install nome_do_pacote
+````
