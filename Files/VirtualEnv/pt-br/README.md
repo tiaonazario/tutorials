@@ -16,7 +16,7 @@ O funcionamento de uma virtualenv é bem simples. Basicamente, uma cópia dos di
 
 ## Instalação
 
-### Linux ou macOS
+### Linux
 
 ```bash
 sudo pip install virtualenv
