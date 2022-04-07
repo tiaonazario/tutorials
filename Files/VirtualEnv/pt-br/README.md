@@ -16,6 +16,14 @@ O funcionamento de uma virtualenv é bem simples. Basicamente, uma cópia dos di
 
 ## Instalação
 
+### Linux ou macOS
+
+```bash
+sudo pip install virtualenv
+```
+
+### Windows
+
 ```powershell
 pip install virtualenv
 ```
