@@ -73,3 +73,17 @@ git log
 ```bash
 git diff file
 ```
+
+## Branch
+
+### Select branch
+
+```bash
+git checkout nameBranch
+```
+
+## Merge
+
+```bash
+git merge main
+```
