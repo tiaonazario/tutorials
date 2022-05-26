@@ -43,6 +43,12 @@ git remote add origin repositoryLink
 git branch
 ```
 
+### Delete branch
+
+```bash
+git push origin --delete branchName
+```
+
 ### Push files to GitHub
 
 ```bash
