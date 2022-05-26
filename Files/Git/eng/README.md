@@ -79,11 +79,18 @@ git diff file
 ### Select branch
 
 ```bash
-git checkout nameBranch
+git checkout branchName
 ```
 
-## Merge
+### Merge
 
 ```bash
 git merge main
+```
+
+### Delete Branch
+
+```bash
+git branch -d branchName
+git branch -D branchName
 ```
